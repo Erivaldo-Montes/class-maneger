@@ -1,3 +1,4 @@
+import "dotenv"
 import "./database/index"
 import app from './app'
 import 'reflect-metadata'

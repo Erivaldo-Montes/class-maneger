@@ -1,10 +1,7 @@
-{
+console.log('process.env.DATA_URL: ', process.env.DATABASE_URL)
+module.exports = {
+  "url": process.env.DATABASE_URL,
   "type": "postgres",
-  "host": "localhost",
-  "port": 5444,
-  "username": "postgres",
-  "password": "docker",
-  "database": "mussum",
   "entities": [
     "src/models/*.ts"
   ],
