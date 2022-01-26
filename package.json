@@ -1,0 +1,10 @@
+{
+  "name": "projeto-typeorm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts",
+    "typeorm": "node --require ts-node/register .node_modules/typeorm/cli.js"
+  }
+}
